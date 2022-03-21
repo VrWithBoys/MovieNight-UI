@@ -8,6 +8,7 @@ class dashboard extends StatelessWidget {
   Widget build(BuildContext context) {
     return const SafeArea(
         child: Scaffold(
+          backgroundColor: Colors.black12,
           body: body(),
         ),
     );

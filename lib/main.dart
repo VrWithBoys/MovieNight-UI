@@ -2,15 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:movienight/pages/dashboard/dashboard.dart';
 import 'package:movienight/constants.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(Main());
 
-class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+class Main extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Solar App',
+      title: 'Movie Night',
       theme: ThemeData(
         primaryColor: Colors.black12,
         scaffoldBackgroundColor: Colors.white,
